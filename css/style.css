@@ -306,6 +306,140 @@ footer{
 .study-intro:nth-child(4){
   background: #cc67676e;
 }
+/*-----------------------------BLOG page-------------------------*/
+#main-blog{
+  padding: 5px;
+  width: 22em;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #27273f;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#showcase{
+  padding: 15px;
+  width: 92%;
+  height: 170px;
+  background:url(../img/showcase3.jpeg) no-repeat center;
+  background-size: cover;
+  border: 2px solid #67e667;
+  border-radius: 15px;
+  margin: 10px;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#showcase h1{
+  color:#fff;
+  font-size: 20px;
+  text-align: center;
+  width: 20em;
+  margin-bottom: 12px;
+}
+#showcase h2{
+  color:rgb(209, 154, 70);
+  font-size: 17px;
+  text-align: center;
+  width: 20em;
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+
+}
+.subcontainer{
+  width: 90%;
+  height: 400px;
+  margin: 12px;
+  padding: 12px;
+  box-shadow:0 0 5px #67e667;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.3s;
+}
+.subcontainer:hover{
+  border: #f6ff74 1px solid;
+}
+.subcontainer img{
+  width: 75%;
+  height: 55%;
+  margin: 5px;
+  transition: 0.8s;
+}
+.subcontainer img:hover{
+  transform: scale(1.4,1.3) translate(0px, 65px);
+  border:#67e667 1px solid;
+  box-shadow: 0 0 10px #f6ff74;
+
+}
+.subcontainer h1{
+  font-size: 12px;
+  color:#fff;
+  padding: 3px;
+}
+.blog-detail{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.blog-detail p{
+  text-align: justify;
+  color: #fff;
+  padding: 12px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+.blog-feedback{
+  padding: 3px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.blog-detail input{
+  padding: 5px;
+  font-size: 10px;
+  height: 30px;
+  margin-bottom: 10px;
+  outline: none;
+  background: rgb(240, 232, 232);
+}
+.blog-button{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin:5px;
+}
+.blog-detail button{
+  width: 40px;
+  background-color: #9cda9cde;
+  border: 0.5px;
+  cursor: pointer;
+  transition: 0.2 linear;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5%;
+}
+.blog-detail button:hover{
+  background-color:#f6ff74;
+}
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .navbar{
@@ -362,6 +496,55 @@ footer{
       width: 90%;
       height: 110%;
     }
+    /*---------BLOG page-------*/
+    #main-blog{
+      padding: 5px;
+      width: 44em;
+      margin-top: 80px;
+    }
+    #showcase{
+      padding: 15px;
+      width: 92%;
+      height: 270px;
+    }
+    #showcase h1{
+      font-size: 25px;
+    }
+    #showcase h2{
+      font-size: 22px;
+    }
+    .subcontainer{
+      width: 90%;
+      height: 400px;
+    }
+    .subcontainer img{
+      width: 70%;
+      height: 60%;
+    }
+    .subcontainer h1{
+      font-size: 17px;
+    }
+    .blog-detail{
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .blog-detail p{
+      font-size: 14px;
+    }
+    .blog-detail input{
+      padding: 5px;
+      font-size: 10px;
+      height: 30px;1111
+    }
+    .blog-feedback{
+      padding: 3px;
+      margin: 5px;
+    }
+    .blog-detail button{
+      width: 40px;
+    }
+
 }
 @media only screen and (min-width: 769px) {
 /* For desktop: */
@@ -466,6 +649,54 @@ footer{
 }
 .study-intro:hover{
   width: 46%;
+}
+ /*---------BLOG page-------*/
+ #main-blog{
+  padding: 25px;
+  width: 80em;
+  margin-top: 150px;
+}
+#showcase{
+  padding: 15px;
+  width: 100%;
+  height: 400px;
+}
+#showcase h1{
+  font-size: 60px;
+}
+#showcase h2{
+  font-size: 50px;
+}
+.subcontainer{
+  width: 590px;
+  height: 450px;
+}
+.subcontainer img{
+  width: 70%;
+  height: 50%;
+}
+.subcontainer h1{
+  font-size: 25px;
+}
+.blog-detail{
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.blog-detail p{
+  font-size: 12px;
+}
+.blog-detail input{
+  padding: 7px;
+  font-size: 17px;
+  height: 70px;
+}
+.blog-feedback{
+  padding: 8px;
+  margin: 5px;
+}
+.blog-detail button{
+  width: 60px;
 }
 }
 
