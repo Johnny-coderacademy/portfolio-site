@@ -167,7 +167,7 @@ body{
     width: 170px;
     display: inline-block;
     padding: 3px 20px;
-    border: 1.5px solid #f6ff74;
+    border: 1.5px solid #7ef77a;
     border-radius: 6px;
     margin-top: 5px;
     transition: 0.3s linear;
@@ -203,7 +203,7 @@ body{
     margin: 8px 0;
     color:#fff;
     line-height: 1.5;
-    border: 1px #f6ff74 solid;
+    border: 1px #7ef77a solid;
     border-radius: 15px;
     padding: 10px;
     transition: 0.3s linear;
@@ -427,17 +427,18 @@ footer{
   margin:5px;
 }
 .blog-detail button{
-  width: 40px;
-  background-color: #9cda9cde;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 2px #7ef77a;
+  color: black;
   border: 0.5px;
   cursor: pointer;
-  transition: 0.2 linear;
-  font-weight: bold;
-  padding: 5px;
+  padding: 4px;
   border-radius: 5%;
+  transition: 0.5s;
 }
 .blog-detail button:hover{
-  background-color:#f6ff74;
+  background-color:#728bfd;
+  width: 48%;
 }
 /*-----------------------------Portfolio page-------------------------*/
 #main-flip-card{
@@ -529,6 +530,75 @@ footer{
 .front-title a{
   font-size: 30px;
 }
+/*-----------------------------Contact page-------------------------*/
+.contact-card-header{
+  background-color: #27273f;
+  padding: 10px 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-card-header h1 {
+  color:#fff;
+  font-size: 35px;
+  margin-bottom:0px;
+}
+.contact-card-header h2 {
+  color:#67e667;
+  font-size: 25px;
+}
+.quote{
+  box-shadow:0 0 10px #7ef77a;
+  border-radius:5px;
+  height: 65%;
+  width: 85%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.quote label{
+  float: left;
+  font-size: 20px;
+  color:#FFF;
+}
+.quote input, textarea{
+  width: 250px;
+  margin: 10px;
+  padding: 3px;
+  font-size: 20px;
+}
+.quote textarea{
+  height: 100px;
+}
+.quote ::placeholder{
+  font-size: 15px;
+  font-style: italic;
+  padding: 3px;
+}
+.quote button{
+  width: 120px;
+  height: 28px;
+  font-size: 17px;
+  margin-bottom: 5px;
+  background: transparent;
+  color: #fff;
+  border: #7ef77a 1.5px solid;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+button:hover{
+  background: #728bfd;
+  width: 140px;
+  font-size: 19px;
+}
+
+/* ############################################### TABLETS #########################*/
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .navbar{
@@ -637,6 +707,7 @@ footer{
 .flip-card{
   margin-left: 15px;
 }
+/* ############################################### Desktop #########################*/
 @media only screen and (min-width: 769px) {
 /* For desktop: */
 .navbar{
@@ -792,7 +863,9 @@ footer{
 /*-----------------------------Portfolio page-------------------------*/
 .flip-card{
   margin-left: 28px;
+  width: 370px;
 }
+
 }
 
 
