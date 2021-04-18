@@ -192,7 +192,7 @@ body{
   }
   .card-header-2{
     padding: 20px 20px;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -202,7 +202,7 @@ body{
     height: 105%;
     margin: 8px 0;
     color:#fff;
-    line-height: 1.5;
+    line-height: 1.3;
     border: 1px #7ef77a solid;
     border-radius: 15px;
     padding: 10px;
@@ -520,9 +520,10 @@ footer{
   justify-content: space-around;
 }
 .front-title h1{
-  font-size: 30px;
+  font-size: 28px;
   color: #fff;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .front-title h2{
   font-size: 24px;
@@ -546,19 +547,19 @@ footer{
 }
 .contact-card-header h1 {
   color:#fff;
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom:0px;
 }
 .contact-card-header h2 {
   color:#67e667;
-  font-size: 25px;
+  font-size: 22px;
 }
 .quote{
   box-shadow:0 0 10px #7ef77a;
   border-radius:5px;
   height: 70%;
   width: 90%;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -566,17 +567,17 @@ footer{
 }
 .quote label{
   float: left;
-  font-size: 17px;
+  font-size: 15px;
   color:#FFF;
 }
 .quote input, textarea{
   width: 200px;
   margin: 5px;
   padding: 3px;
-  font-size: 19px;
+  font-size: 18px;
 }
 .quote textarea{
-  height: 90px;
+  height: 50%;
 }
 .quote ::placeholder{
   font-size: 15px;
@@ -752,7 +753,7 @@ button:hover{
   border-radius: 25px;
 }
 .card-header{
-  height: 65vh;
+  height: 70vh;
   padding-bottom: 35px;
 }
 .profile-card-2{
@@ -760,7 +761,7 @@ button:hover{
   border-radius: 25px;
 }
 .card-header-2{
-  height: 65vh;
+  height: 70vh;
   padding: 60px 40px;
   justify-content: space-around;
 }
@@ -771,8 +772,8 @@ button:hover{
   padding: 15px;
 }
 .pic img{
-  width: 130px;
-  height: 135px;
+  width: 125px;
+  height: 130px;
 }
 .name{
   font-size: 28px;
@@ -870,15 +871,21 @@ button:hover{
   margin-left: 28px;
   width: 370px;
 }
+.front-title h1{
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
  /*---------Contact page-------*/
  .quote input, textarea{
   width: 250px;
-  margin: 10px;
-  padding: 3px;
-  font-size: 20px;
+  margin: 8px;
+  padding: 1px;
+  font-size: 18px;
 }
 .quote label{
-  font-size: 20px;
+  font-size: 18px;
 }
 }
 
