@@ -377,8 +377,8 @@ footer{
   border: #f6ff74 1px solid;
 }
 .subcontainer img{
-  width: 75%;
-  height: 55%;
+  width: 70%;
+  height: 50%;
   margin: 5px;
   transition: 0.8s;
 }
@@ -762,7 +762,7 @@ button:hover{
 }
 .card-header-2{
   height: 70vh;
-  padding: 60px 40px;
+  padding: 55px 37px;
   justify-content: space-around;
 }
 .intro{
@@ -811,8 +811,8 @@ button:hover{
   padding-left: 27%;
 }
 .study-intro{
-  width: 48%;
-  height: 48%;
+  width: 47%;
+  height: 46%;
   margin: 10px;
 }
 .study-intro:hover{
