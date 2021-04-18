@@ -192,7 +192,7 @@ body{
   }
   .card-header-2{
     padding: 20px 20px;
-    height: 110vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -402,22 +402,22 @@ footer{
 .blog-detail p{
   text-align: justify;
   color: #fff;
-  padding: 12px;
+  padding: 10px;
   font-size: 12px;
   line-height: 1.2;
 }
 .blog-feedback{
   padding: 3px;
-  margin: 5px;
+  margin: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .blog-detail input{
-  padding: 5px;
+  padding: 3px;
   font-size: 10px;
-  height: 30px;
+  height: 28px;
   margin-bottom: 10px;
   outline: none;
   background: rgb(240, 232, 232);
