@@ -361,10 +361,10 @@ footer{
 
 }
 .subcontainer{
-  width: 90%;
+  width: 92%;
   height: 400px;
   margin: 12px;
-  padding: 12px;
+  padding: 8px;
   box-shadow:0 0 5px #67e667;
   border-radius: 5px;
   display: flex;
@@ -378,7 +378,7 @@ footer{
 }
 .subcontainer img{
   width: 70%;
-  height: 50%;
+  height: 45%;
   margin: 5px;
   transition: 0.8s;
 }
