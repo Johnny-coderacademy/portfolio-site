@@ -222,6 +222,7 @@ body{
 footer{
     top:50%;
     width: 100%;
+    padding:10px;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
    font-weight: 400;
@@ -268,13 +269,14 @@ footer{
   height: 60px;
   border-radius: 50%;
 }
-.study p{
-  width: 100%;
-  padding-left: 3%;
-  padding-top: 8%;
+.study ul{
+  width: 90%;
+  padding-left: 8%;
+  padding-top: 5%;
   padding-right: 3%;
   padding-bottom: 3%;
   text-align: justify;
+  font-size: 12px;
 }
 .study h1{
    padding-left:35%;
@@ -564,12 +566,12 @@ footer{
 }
 .quote label{
   float: left;
-  font-size: 20px;
+  font-size: 17px;
   color:#FFF;
 }
 .quote input, textarea{
-  width: 250px;
-  margin: 10px;
+  width: 200px;
+  margin: 7px;
   padding: 3px;
   font-size: 20px;
 }
@@ -642,8 +644,10 @@ button:hover{
       width: 80px;
       height: 80px;
     }
-    .study p{
+    .study ul{
       padding-top: 4%;
+      padding-left: 17%;
+      font-size: 15px;
     }
     .study h1{
       padding-left: 23%;
@@ -663,7 +667,7 @@ button:hover{
     }
     #showcase{
       padding: 15px;
-      width: 92%;
+      width: 90%;
       height: 270px;
     }
     #showcase h1{
@@ -727,10 +731,11 @@ button:hover{
 .navbar-menu a{
     font-size: 24px;
     font-weight: 500;
-    margin: 0px 42px;
+    margin: 0px 54px;
 }
 .navbar-menu a:hover{
   font-size: 26px;
+  padding: 10px 12px;
 }
 .border{
   width: 3px;
@@ -774,8 +779,8 @@ button:hover{
   margin: 8px 0;
 }
 .contact-btn{
-  width: 200px;
-  padding: 8px 50px;
+  width: 210px;
+  padding: 10px 50px;
   margin-top: 8px;
 }
 .contact-btn:hover{
@@ -795,7 +800,7 @@ button:hover{
   width: 120px;
   height: 120px;
 }
-.study p{
+.study ul{
   padding-left: 27%;
   padding-top:6%;
   padding-right: 5%;
@@ -820,7 +825,7 @@ button:hover{
 }
 #showcase{
   padding: 15px;
-  width: 100%;
+  width: 98%;
   height: 400px;
 }
 #showcase h1{
@@ -860,12 +865,21 @@ button:hover{
 .blog-detail button{
   width: 60px;
 }
-/*-----------------------------Portfolio page-------------------------*/
+ /*---------PORTFOLIO page-------*/
 .flip-card{
   margin-left: 28px;
   width: 370px;
 }
-
+ /*---------Contact page-------*/
+ .quote input, textarea{
+  width: 250px;
+  margin: 10px;
+  padding: 3px;
+  font-size: 20px;
+}
+.quote label{
+  font-size: 20px;
+}
 }
 
 
