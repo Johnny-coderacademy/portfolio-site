@@ -503,6 +503,7 @@ footer{
   height: 100%;
   backface-visibility: hidden;
   padding: 20px;
+  border-radius: 5%;
 }
 .front-header img{
   width: 100%;
