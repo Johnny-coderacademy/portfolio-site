@@ -11,7 +11,7 @@ https://github.com/Johnny-coderacademy/portfolio-site
   - Functionality / features:
    1. Navbar for viewers to navigate across all pages
    2. Flex box & animation
-   3. Responsive design for viewing on multiple devices
+   3. Media queries for responsive design for viewing on multiple devices
    4. Hover and image transformation
    5. Form and text inputs
    6. Flip animation on porfolio page
