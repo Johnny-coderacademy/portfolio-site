@@ -1,0 +1,125 @@
+commit ddc837e7f7686fc19bb5119dea15e0658a3f3417
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed Apr 21 14:04:22 2021 +1000
+
+    final commit
+
+commit 60b5ee85018b80af5c2baa31971d6d036af00b7b
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Mon Apr 19 16:40:38 2021 +1000
+
+    active form to receive email, test crossorigin
+
+commit 51bd4a6dac508cac86f31373de175172bb2de5d0
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Mon Apr 19 15:45:35 2021 +1000
+
+    test cross origin
+
+commit db36edfad5383860042b6fed33636d9262c4278a
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Mon Apr 19 15:41:49 2021 +1000
+
+    remove unnecessary images, add readme
+
+commit 6a23f94aa320491b04d93842491964d16087a2f8
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Mon Apr 19 10:11:57 2021 +1000
+
+    resize image on portfolio.html
+
+commit 622491b323ff054badfc0f63b78fd8cbbd147f67
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Mon Apr 19 10:04:25 2021 +1000
+
+    update home page on CSS
+
+commit 93601567d2d72d2ae7e73e09228c177dff8521d9
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Mon Apr 19 09:59:24 2021 +1000
+
+    update home and blog pages
+
+commit 9d1b02da0d6c6a82fef35d77b3bdee1dae67aefd
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Mon Apr 19 09:53:33 2021 +1000
+
+    resize images for mobile view
+
+commit faa39a5ea8f9d2a2749bf18d25b8bb775eb8e2c7
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Mon Apr 19 09:43:52 2021 +1000
+
+    resize images and add css styling on blog.html
+
+commit 9a168d7a23f709f8959766e208bd07db4e931f4d
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Mon Apr 19 09:22:32 2021 +1000
+
+    add CSS changes to index.html, portfolio.html
+
+commit 2a95e70a9eeb6e48c55177fb3de4f52ded9ee7b2
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Sun Apr 18 23:17:17 2021 +1000
+
+    add changes to mobile design
+
+commit 0b973c129fa994dbff3f0d3fe7615e9d8f142007
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Sun Apr 18 23:09:27 2021 +1000
+
+    add Css changes on Index.html and contact page
+
+commit b75a4fc1d660275184f814072a097b1d693813d2
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Sun Apr 18 22:58:14 2021 +1000
+
+    finalized styling, photos, content
+
+commit 521e5129452f79d9495eb85f1407dfeae693001b
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Sat Apr 17 23:27:14 2021 +1000
+
+    add contact page + styling
+
+commit b8e44d5e1eb5ab8f081ff761e20d38c38d1e0aff
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Fri Apr 16 11:08:26 2021 +1000
+
+    complete portfolio site & add responsive styling
+
+commit 6e0a8e2988a2659e33f58cad477782103be5c220
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu Apr 15 21:24:48 2021 +1000
+
+    add responsive design for blog
+
+commit 13f546500404a8562eaafa910ef51692df23f883
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed Apr 14 14:58:11 2021 +1000
+
+    add education page, style, trello board & sitemap
+
+commit b3944bead7e1fb983504e64fdb8bc0b086577fb6
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Tue Apr 13 13:58:10 2021 +1000
+
+    add photos and Css style
+
+commit f2f67946fd555403e78d395b42db9e6d7989b06f
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Tue Apr 13 13:55:22 2021 +1000
+
+    initial commit
+
+commit 7a51fa8ac1549500c303ba5789f6943f9a797b72
+Author: Nandini Nayak <nandini.r.nayak@gmail.com>
+Date:   Wed Apr 7 08:38:41 2021 +1000
+
+    initial commit
+
+commit c022eb3d74f1d13a747d7ec95ecf4fb53e52d72b
+Author: NandiniNayak <nandini.r.nayak@gmail.com>
+Date:   Wed Apr 7 08:35:15 2021 +1000
+
+    Initial commit

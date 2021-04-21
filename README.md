@@ -25,27 +25,27 @@ https://github.com/Johnny-coderacademy/portfolio-site
 
 ## Home page
 
-<img src="img/home.png" alt="Home page">
+<img src="img/Home.png" alt="Home page">
 
 ## Education page
 
-<img src="img/education.png" alt="Education page">
+<img src="img/Education.png" alt="Education page">
 
 ## Blog page
 
-<img src="img/blog.png" alt="Blog page">
+<img src="img/Blog.png" alt="Blog page">
 
 ## Portfolio-front page
 
-<img src="img/portfolio-front.png" alt="Portfolio page">
+<img src="img/Portfolio-front.png" alt="Portfolio page">
 
 ## Portfolio-back page
 
-<img src="img/portfolio-back.png" alt="portfolio page">
+<img src="img/Portfolio-back.png" alt="portfolio page">
 
 ## Contact
 
-<img src="img/contact.png" alt="Contact page">
+<img src="img/Contact.png" alt="Contact page">
 
 # Target Audience
 
