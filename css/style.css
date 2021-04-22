@@ -16,6 +16,7 @@ body{
     align-items: center;
     flex-direction: column;
 }
+/*nav-bar*/
 .navbar{
     position: absolute;
     background-color: rgba(217, 219, 243, 0.062);
@@ -34,6 +35,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+/*logo*/
 .logo{ 
     display: none;
     width: 75px;
@@ -102,6 +104,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
   }
+  /*Profile pic with linear gradient animation*/
   .pic{
     display: inline-block;
     padding: 8px;
@@ -163,6 +166,7 @@ body{
   .sm a:hover{
     color:#728bfd;
   }
+  /*Contact-button with animation & box shadow effects*/
   .contact-btn{
     width: 170px;
     display: inline-block;
@@ -253,6 +257,7 @@ footer{
   align-items: center;
   justify-content: center;
 }
+/*parent container*/
 .study{
   width: 98%;
   height: 95%;
@@ -283,6 +288,7 @@ footer{
    margin-top: 5%;
    font-size: 25px;
 }
+/*child container with Nth() selector*/
 .study-intro {
   width: 90%;
   height: 48%;
@@ -323,6 +329,7 @@ footer{
   justify-content: center;
   flex-wrap: wrap;
 }
+/*Showcase with flex box*/
 #showcase{
   padding: 15px;
   width: 92%;
@@ -351,6 +358,7 @@ footer{
   text-align: center;
   width: 20em;
 }
+/*blog contents*/
 .container{
   width: 100%;
   display: flex;
@@ -360,6 +368,7 @@ footer{
   margin: auto;
 
 }
+/*individual blog with hover effects*/
 .subcontainer{
   width: 92%;
   height: 400px;
@@ -406,6 +415,7 @@ footer{
   font-size: 12px;
   line-height: 1.2;
 }
+/*Text input area*/
 .blog-feedback{
   padding: 3px;
   margin: 2px;
@@ -428,6 +438,7 @@ footer{
   justify-content: space-between;
   margin:5px;
 }
+/*send and like buttons*/
 .blog-detail button{
   background-color: #f2f2f2;
   box-shadow: 0 0 2px #7ef77a;
@@ -451,6 +462,7 @@ footer{
   margin-top: 140px;
   perspective: 1000px;
 }
+/*flipcard with 3d animation*/
 .flip-card{
   width: 340px;
   height: 60vh;
@@ -468,6 +480,7 @@ footer{
 .flip-card:hover .flip-card-inner{
   transform:rotateY(180deg);
 } 
+/*Front-card*/
 .card-front{
   background-color: #27273f;
   display: flex;
@@ -475,6 +488,7 @@ footer{
   align-items: center;
   justify-content: space-between;
 }
+/*back-card*/
 .card-back{
   background-color: #f2f2f2;
   transform: rotateY(180deg);
@@ -554,6 +568,7 @@ footer{
   color:#67e667;
   font-size: 22px;
 }
+/*quote area with text input, form, lable and send button*/
 .quote{
   box-shadow:0 0 10px #7ef77a;
   border-radius:5px;
@@ -584,6 +599,7 @@ footer{
   font-style: italic;
   padding: 3px;
 }
+/*button with hover effect*/
 .quote button{
   width: 120px;
   height: 28px;
